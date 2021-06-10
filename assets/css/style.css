@@ -501,10 +501,17 @@ section {
   background-color: #a6a6a6;
   color: #000000;
   border: none;
-  border-radius: 12px;
+  border-radius: 5rem;
+  padding: 0 .5rem;
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  cursor: pointer;
 }
 button:active{
   transform: scale(1.1);
+}
+button:hover{
+  background: #d3e7ed;
 }
 
 /*--------------------------------------------------------------
